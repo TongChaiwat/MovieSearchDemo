@@ -35,7 +35,7 @@ class HomePresenter(private var view: HomeContract.HomeView) : HomeContract.Home
         val historyList = view.getHistoryList()
         var historyResult = listOf(view.getTextFromSearchBox()) + historyList
         if (historyResult.size > 5) {
-            historyResult = historyList.subList(0, 5)
+            historyResult = historyResult.subList(0, 5)
         }
         view.updateHistory(historyResult)
         view.showHistory()
