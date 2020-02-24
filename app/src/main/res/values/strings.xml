@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MovieSearchDemo</string>
+    <string name="label_error_message">Error please try again later</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="vote">Average votes: %.2f</string>
+    <string name="favorite">Favorite</string>
+    <string name="un_favorite">Unfavorite</string>
+    <string name="back">Back</string>
+    <string name="back_to_search">Back to Search</string>
+    <string name="movie_empty">Your search term isn\'t match with our movie lists. Please click Back.</string>
+</resources>
