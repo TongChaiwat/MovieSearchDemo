@@ -88,6 +88,7 @@ class MovieListActivity : AppCompatActivity(), MovieListContract.MovieListView {
     }
 
     override fun showMovie(movieList: MutableList<Movie>, isLoadMore: Boolean) {
+        if (isFinishing) return
         if (isLoadMore) {
             (rvMovie.adapter as MovieAdapter).addMovieList(movieList)
         } else {
