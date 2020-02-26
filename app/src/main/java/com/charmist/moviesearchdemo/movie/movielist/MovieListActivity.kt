@@ -99,9 +99,9 @@ class MovieListActivity : AppCompatActivity(), MovieListContract.MovieListView {
 
     override fun showLoading(isShow: Boolean) {
         if (isShow) {
-            progressBar.visibility = View.VISIBLE
+            progressBar?.visibility = View.VISIBLE
         } else {
-            progressBar.visibility = View.GONE
+            progressBar?.visibility = View.GONE
         }
     }
 
